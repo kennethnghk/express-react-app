@@ -2,7 +2,14 @@
 
 Ref: https://daveceddia.com/create-react-app-express-backend/
 
-## Startup the app
+## Startup react client
+
+```
+cd client
+yarn start
+```
+
+## Startup backend proxy
 
 Note the PORT variable: this Express app will default to port 3000, and Create React App will also default to port 3000. To avoid the conflict, start Express on 3001
 
