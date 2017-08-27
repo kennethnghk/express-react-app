@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start-backend": "node ./bin/www",
-    "start": "cd ./client && npm start"
+    "start-client": "cd ./client && npm start",
+    "start": "npm run start-client && npm run start-backend"
   },
   "dependencies": {
     "body-parser": "~1.17.1",
