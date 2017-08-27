@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start-backend": "node ./bin/www",
-    "start-client": "cd ./client && npm start",
+    "start-client": "./client/start.sh",
     "start": "npm run start-client && npm run start-backend"
   },
   "dependencies": {
