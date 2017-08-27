@@ -16,3 +16,11 @@ Note the PORT variable: this Express app will default to port 3000, and Create R
 ```
 PORT=3001 node bin/www
 ```
+
+## Nodemon
+
+[Nodemon](https://github.com/remy/nodemon) can also be applied:
+
+```
+nodemon
+```
